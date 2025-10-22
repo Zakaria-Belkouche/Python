@@ -1,5 +1,6 @@
+# Zakaria Belkouche 22/10/25
 
-# This is the same task as before, but this time, I include  
+# This is the same task as before, but this time, I OOP  
 
 fname = input("First Name: ")
 lname = input("Last Name: ")

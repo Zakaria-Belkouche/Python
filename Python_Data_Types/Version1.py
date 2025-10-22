@@ -1,3 +1,4 @@
+# Zakaria Belkouche 22/10/25
 
 fname = input("First Name: ")
 lname = input("Last Name: ")
