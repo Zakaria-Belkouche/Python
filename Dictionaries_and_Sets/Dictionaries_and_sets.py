@@ -1,40 +1,41 @@
 x = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+z = x.copy()
 
-try:
-    t = int(input("pick a random integer:               ")) 
+while True:
+    try: 
+        y = input("choose an operation: add / remove or quit to stop:       ").lower()
+        t = int(input("pick a random integer:              "))
 
-    y = input("choose an operation: add or remove or quit to stop      ").lower()
+        if y not in ("add", "remove", "quit"):
+            raise Exception
 
-    if y not in ("add", "remove", "quit"):
-        raise Exception
+    except Exception as e:
+        print("Please input a valid integer and the correct string")
+        continue
 
-except Exception as e:
-    print("please input a valid integer and the correct string")
+    if y == "quit":
+        break
 
-else:
-    while y != "quit":
+    else:
         try:
             if y == "remove":
                 x.remove(t)
-                print(x)
+                print(f"Updated set: {x}")
 
             elif y == "add":
-                duplicate_found = False
-
                 for n in x:
                     if n == t:
-                        print("That value already exists in the set, so will not be added")
-                        duplicate_found = True
-                        break
-                
-                if not duplicate_found:
-                    x.add(t)
-                    print(x)
-
+                        print("Cannot add value to set as it already exists")
+                x.add(t)
+                print(f"The updated set is: {x}")
 
         except KeyError as e:
-            print(f"The integer {e} doesn't exist in the set, so we cannot remove it")
+            print("cannot remove value as it does not exist in the set")
 
 
+print(f"The set we started with is: {z}")
+print(f"The new set is: {x}")
+difference = x.symmetric_difference(z)
+print(f"The difference between the two sets is: {difference}")
 
 
