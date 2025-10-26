@@ -17,7 +17,7 @@ while True:
             toppings.add(y)
         while y in ("onion", "lettuce", "tomato"):
             print("Type anything else to exit")
-            y = input("any other toppings?              ")
+            y = input("any other toppings?              ").lower()
             if y in ("onion", "lettuce", "tomato"):
                 toppings.add(y)
 
@@ -28,7 +28,7 @@ while True:
             sides.add(z)
         while z in ("fries", "corn", "peas"):
             print("type anything else to exit")
-            z = input("any other sides?")
+            z = input("any other sides?").lower()
             if z in ("fries", "corn", "peas"):
                 sides.add(z)
 
@@ -40,7 +40,7 @@ while True:
             drinks.add(d)
         while d in ("coke", "fanta", "pepsi"):
             print("Type anything else to exit")
-            d = input("any other drinks?            ")
+            d = input("any other drinks?            ").lower()
             if d in ("coke", "fanta", "pepsi"):
                 drinks.add(d)
 
@@ -53,4 +53,4 @@ if drinks:
     print(f"Your drink selection is: {drinks}")
 
 
-# Still a work in progress
+# Still a work in progress... I know I'm doing this wrong and overcomplicating things. I will start over
