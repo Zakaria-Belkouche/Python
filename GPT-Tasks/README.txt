@@ -34,9 +34,115 @@ Converts it into an integer
 
 Prints whether the number is even or odd
 
+			Task2a
+
+
+🧪 Rewrite Task (Lambda Version)  
+
+Create a lambda function that:
+
+Takes a number
+
+Returns the string "Even" or "Odd"
+
+Then:
+
+Ask the user for a number
+
+Convert it to an integer
+
+Use the lambda to determine even/odd
+
+Print the result in a sentence
+
 =================================================================
 
 
+			Task 3
+
+🧪 Task 3
+
+Write a Python program that:
+
+Asks the user for three numbers
+
+Converts them to integers
+
+Determines which of the three numbers is the largest
+
+Prints the result as a simple message
 
 
+
+=================================================================
+
+			Task 4
+
+🧪 Task 4 (Beginner → Logic + Loops Practice)
+
+Write a Python program that:
+
+Asks the user for a word
+
+Loops through each letter in that word
+
+Counts how many vowels the word contains
+
+vowels are: a, e, i, o, u (lowercase is fine)
+
+Prints the final count of vowels
+
+
+=================================================================
+
+			Task 5
+
+🧪 Task 5 (Beginner → Intermediate: Loops + Logic + Lists)
+
+Write a Python program that:
+
+Asks the user for a sentence (multiple words)
+
+Splits the sentence into individual words
+
+Counts how many words are longer than 4 letters
+
+Prints the count
+
+=================================================================
+
+			Task 6
+
+Write a Python program that:
+
+Asks the user to enter a sentence (or multiple sentences).
+
+Splits the text into individual words.
+
+Counts how many times each word appears.
+
+Prints the result in a clear way, for example:
+
+Word counts:
+hello: 3
+world: 1
+python: 2
+
+=============================================================
+
+			Task 7
+
+Using the code you just wrote (your word counter), extend it so that:
+
+After building the counts dictionary
+
+You sort the words by how often they appear
+
+You print them in descending order (most frequent → least frequent)
+
+Example output format:
+
+The word 'hello' appears 5 times
+The word 'world' appears 3 times
+The word 'python' appears 1 time
 
