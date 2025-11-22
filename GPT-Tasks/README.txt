@@ -128,7 +128,7 @@ hello: 3
 world: 1
 python: 2
 
-=============================================================
+==============================================================
 
 			Task 7
 
@@ -146,3 +146,24 @@ The word 'hello' appears 5 times
 The word 'world' appears 3 times
 The word 'python' appears 1 time
 
+==============================================================
+
+			Task 8
+
+Asks the user to enter a sentence
+
+Converts the sentence into a list of words
+
+Produces the following slices from that list, and prints each one:
+
+The first 3 words
+
+The last 3 words
+
+Every second word
+
+The list reversed
+
+The middle section (from index 2 to index -2)
+
+Do not use loops for any slicing.
