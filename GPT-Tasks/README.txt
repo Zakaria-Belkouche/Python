@@ -167,3 +167,93 @@ The list reversed
 The middle section (from index 2 to index -2)
 
 Do not use loops for any slicing.
+
+================================================================
+
+			Task 9
+
+Write a Python program that does the following:
+
+1. Ask the user for a filename
+
+Example prompt:
+
+Enter the filename: 
+
+2. Open the file and read its contents
+
+Load the entire text into a string.
+
+3. Clean the text
+
+convert to lowercase
+
+remove punctuation
+
+remove extra spaces
+
+4. Split the text into a list of words
+5. Produce the following results:
+✔ A. Total number of words
+✔ B. The first 10 words
+✔ C. The last 10 words
+✔ D. The 10 most frequent words (sorted by count)
+✔ E. The entire text reversed (word order reversed)
+6. Print all results clearly
+
+
+================================================================
+
+			Task 10
+
+🧪 Task 10: Create a Dog class with:
+
+A constructor (__init__) that takes:
+
+a name
+
+an age
+
+Two methods:
+
+bark() → prints "Woof! My name is ___"
+
+birthday() → increases the dog’s age by 1
+
+Make a dog object and test the methods.
+
+================================================================
+
+			Task 11
+
+Create two classes:
+1. Dog class
+
+Attributes:
+name, age, breed
+
+Methods:
+bark() → returns "Woof! I'm <name>!"
+birthday() → increases age by 1
+info() → returns a string describing the dog
+
+2. Owner class
+Attributes:
+name, dogs → a list that will hold Dog objects
+
+Methods:
+add_dog(dog) → adds a Dog to the list
+list_dogs() → prints info for each dog
+oldest_dog() → returns the Dog with the highest age
+number_of_dogs() → returns how many dogs the owner has
+
+Your main program should:
+Create one Owner
+Create 2 or 3 Dog objects
+Add the dogs to the Owner
+
+Print:
+all dogs the owner has
+the oldest dog
+the number of dogs
+

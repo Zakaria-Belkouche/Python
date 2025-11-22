@@ -1,0 +1,3 @@
+This is a sample paragraph written to test out my code for Task9.py
+
+I am just writing random stuff in here so I can check if it is Removing, Punctuation, and MAKING everything lowercase.
